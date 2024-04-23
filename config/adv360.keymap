@@ -33,14 +33,6 @@
         bindings = <&kp>, <&kp>;
     };
   };
-    combos {
-        compatible = "zmk,combos";
-        combo_bsps {
-            timeout-ms = <50>;
-            key-positions = <31 32>;
-            bindings = <&kp BSPC>;
-        };
-    };
     keymap {
         compatible = "zmk,keymap";
 
