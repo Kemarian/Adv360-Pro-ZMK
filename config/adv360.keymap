@@ -33,7 +33,16 @@
         bindings = <&kp>, <&kp>;
     };
   };
-
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_bsps {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&kp BSPC>;
+        };
+    };
+};
     keymap {
         compatible = "zmk,keymap";
 
@@ -84,7 +93,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans                      &trans                                                                              &trans  &trans             &trans         &trans                  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                      &trans          &trans  &trans                  &trans           &trans             &trans  &trans             &trans         &trans                  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans                  &trans                                      &trans             &trans    &kp PAGE_UP                  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET          &macro_mc_startln  &kp PAGE_DOWN  &macro_macro_mc_endlin  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET          &kp LEFT_COMMAND(LEFT_ARROW)  &kp PAGE_DOWN  &kp LEFT_COMMAND(RIGHT_ARROW)  &trans  &trans
             >;
         };
 
