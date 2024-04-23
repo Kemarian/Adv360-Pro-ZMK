@@ -2,7 +2,7 @@ macro_mc_startln: macro_mc_startln{
 compatible = "zmk,behavior-macro";
 label = "macro_mc_startln";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp RIGHT>;
+bindings = <&kp RIGHT>;
 };
 macro_macro_mc_endlin: macro_macro_mc_endlin{
 compatible = "zmk,behavior-macro";
