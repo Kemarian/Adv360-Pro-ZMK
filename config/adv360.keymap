@@ -41,7 +41,6 @@
             bindings = <&kp BSPC>;
         };
     };
-};
     keymap {
         compatible = "zmk,keymap";
 
