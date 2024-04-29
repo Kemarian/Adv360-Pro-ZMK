@@ -80,11 +80,11 @@
 
         layer_SHORT {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                      &trans                                                                              &trans  &trans             &trans         &trans                  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                      &trans                                                                              &trans  &trans             &trans         &trans                  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                      &trans          &trans  &trans                  &trans           &trans             &trans  &trans             &trans         &trans                  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                              &trans                  &trans                                      &trans             &trans    &kp PAGE_UP                  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET          &macro_mc_startln  &kp PAGE_DOWN  &macro_macro_mc_endlin  &trans  &trans
+ &trans  &kp C_HELP  &kp C_MENU_INCREASE  &kp LG(A)  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN                      &trans                                                                              &trans  &kp K_WWW      &kp LA(LG(SPACE))     &kp K_COPY      &kp C_REC  &kp C_PLAY  &kp C_PP
+ &trans      &trans               &trans     &trans           &trans             &trans                      &trans                                                                              &trans     &trans                 &trans         &trans         &trans      &trans    &trans
+ &trans      &trans               &trans     &trans           &trans             &trans                      &trans          &trans  &trans                  &trans           &trans             &trans     &trans                 &trans         &trans         &trans      &trans    &trans
+ &trans      &trans               &trans     &trans           &trans             &trans                                              &trans                  &trans                                         &trans  &kp LA(LG(SEMICOLON))    &kp PAGE_UP         &trans      &trans    &trans
+ &trans      &trans               &trans     &trans           &trans                               &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans                  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET                     &kp LG(RIGHT)  &kp PAGE_DOWN  &kp LG(RIGHT)      &trans    &trans
             >;
         };
 
